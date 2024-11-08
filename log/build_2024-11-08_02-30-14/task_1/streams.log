@@ -1,0 +1,36 @@
+[0.992s] Invoking command in '/home/marwan/ros2_ws/src/task_1': PYTHONPATH=/home/marwan/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/marwan/ros2_ws/build/task_1/build install --record /home/marwan/ros2_ws/build/task_1/install.log --install-scripts $base/lib/task_1 --single-version-externally-managed install_data
+[1.301s] running egg_info
+[1.301s] creating ../../build/task_1/task_1.egg-info
+[1.302s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[1.303s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[1.303s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[1.305s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[1.350s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[1.351s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[1.351s] running build
+[1.352s] running build_py
+[1.352s] creating /home/marwan/ros2_ws/build/task_1/build
+[1.352s] creating /home/marwan/ros2_ws/build/task_1/build/lib
+[1.352s] creating /home/marwan/ros2_ws/build/task_1/build/lib/task_1
+[1.352s] copying task_1/position.py -> /home/marwan/ros2_ws/build/task_1/build/lib/task_1
+[1.352s] copying task_1/__init__.py -> /home/marwan/ros2_ws/build/task_1/build/lib/task_1
+[1.352s] running install
+[1.353s] running install_lib
+[1.355s] creating /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1
+[1.355s] copying /home/marwan/ros2_ws/build/task_1/build/lib/task_1/position.py -> /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1
+[1.355s] copying /home/marwan/ros2_ws/build/task_1/build/lib/task_1/__init__.py -> /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1
+[1.356s] byte-compiling /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1/position.py to position.cpython-38.pyc
+[1.358s] byte-compiling /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1/__init__.py to __init__.cpython-38.pyc
+[1.359s] running install_data
+[1.359s] creating /home/marwan/ros2_ws/install/task_1/share/ament_index
+[1.359s] creating /home/marwan/ros2_ws/install/task_1/share/ament_index/resource_index
+[1.359s] creating /home/marwan/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[1.359s] copying resource/task_1 -> /home/marwan/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[1.359s] copying package.xml -> /home/marwan/ros2_ws/install/task_1/share/task_1
+[1.360s] running install_egg_info
+[1.362s] Copying ../../build/task_1/task_1.egg-info to /home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages/task_1-0.0.0-py3.8.egg-info
+[1.363s] running install_scripts
+[1.388s] writing list of installed files to '/home/marwan/ros2_ws/build/task_1/install.log'
+[1.421s] Invoked command in '/home/marwan/ros2_ws/src/task_1' returned '0': PYTHONPATH=/home/marwan/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/marwan/ros2_ws/install/task_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/marwan/ros2_ws/build/task_1/build install --record /home/marwan/ros2_ws/build/task_1/install.log --install-scripts $base/lib/task_1 --single-version-externally-managed install_data

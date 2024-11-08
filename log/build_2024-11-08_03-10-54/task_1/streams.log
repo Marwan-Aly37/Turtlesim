@@ -1,0 +1,56 @@
+[0.019s] Invoking command in '/home/marwan/ros2_ws/build/task_1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1
+[0.220s] -- The C compiler identification is GNU 9.4.0
+[0.359s] -- The CXX compiler identification is GNU 9.4.0
+[0.372s] -- Check for working C compiler: /usr/bin/cc
+[0.476s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.478s] -- Detecting C compiler ABI info
+[0.578s] -- Detecting C compiler ABI info - done
+[0.598s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.722s] -- Detecting CXX compiler ABI info
+[0.834s] -- Detecting CXX compiler ABI info - done
+[0.855s] -- Detecting CXX compile features
+[0.855s] -- Detecting CXX compile features - done
+[0.863s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.902s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.902s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.220s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.317s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.457s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.501s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.721s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.727s] -- Looking for pthread.h
+[1.831s] -- Looking for pthread.h - found
+[1.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.938s] -- Looking for pthread_create in pthreads
+[2.026s] -- Looking for pthread_create in pthreads - not found
+[2.026s] -- Looking for pthread_create in pthread
+[2.124s] -- Looking for pthread_create in pthread - found
+[2.125s] -- Found Threads: TRUE  
+[2.380s] CMake Error at CMakeLists.txt:7 (find_package):
+[2.380s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[2.380s]   asked CMake to find a package configuration file provided by "launch", but
+[2.380s]   CMake did not find one.
+[2.380s] 
+[2.380s]   Could not find a package configuration file provided by "launch" with any
+[2.381s]   of the following names:
+[2.381s] 
+[2.381s]     launchConfig.cmake
+[2.381s]     launch-config.cmake
+[2.381s] 
+[2.382s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[2.382s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[2.382s]   provides a separate development package or SDK, be sure it has been
+[2.382s]   installed.
+[2.382s] 
+[2.382s] 
+[2.382s] -- Configuring incomplete, errors occurred!
+[2.383s] See also "/home/marwan/ros2_ws/build/task_1/CMakeFiles/CMakeOutput.log".
+[2.383s] See also "/home/marwan/ros2_ws/build/task_1/CMakeFiles/CMakeError.log".
+[2.393s] Invoked command in '/home/marwan/ros2_ws/build/task_1' returned '1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1

@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/marwan/ros2_ws/build/task_1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1
+[0.038s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.365s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.659s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.874s] CMake Error at CMakeLists.txt:7 (find_package):
+[0.875s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[0.875s]   asked CMake to find a package configuration file provided by "launch", but
+[0.875s]   CMake did not find one.
+[0.875s] 
+[0.875s]   Could not find a package configuration file provided by "launch" with any
+[0.875s]   of the following names:
+[0.876s] 
+[0.876s]     launchConfig.cmake
+[0.876s]     launch-config.cmake
+[0.876s] 
+[0.876s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[0.876s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[0.877s]   provides a separate development package or SDK, be sure it has been
+[0.877s]   installed.
+[0.877s] 
+[0.877s] 
+[0.877s] -- Configuring incomplete, errors occurred!
+[0.877s] See also "/home/marwan/ros2_ws/build/task_1/CMakeFiles/CMakeOutput.log".
+[0.878s] See also "/home/marwan/ros2_ws/build/task_1/CMakeFiles/CMakeError.log".
+[0.887s] Invoked command in '/home/marwan/ros2_ws/build/task_1' returned '1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1

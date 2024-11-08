@@ -1,0 +1,2 @@
+Invoking command in '/home/marwan/ros2_ws/build/task_1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1
+Invoked command in '/home/marwan/ros2_ws/build/task_1' returned '1': /usr/bin/cmake /home/marwan/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/marwan/ros2_ws/install/task_1
