@@ -1,1 +1,2 @@
 # Turtlesim
+This is simple project that uses the turtesim library in ROS2. The position node subscribes to the Pose topic in turtlesim to continuosly get the x and y position of the main turtle. Then we use the spawn service to summon 3 other turtles randomly on the field using the python random library and control our main turtle using the teleop key command in turtlesim. when the main turtle is in close enough range to any of the other turtles we use the kill service to remove the other turtle and spawn it again on the field in a random location.
